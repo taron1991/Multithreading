@@ -1,0 +1,21 @@
+jwt:
+  token:
+   expired: 3600000
+   secret: secretCode
+
+spring:
+  datasource:
+    password: westside
+    username: postgres
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/postgres
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+
+
+
+
+
